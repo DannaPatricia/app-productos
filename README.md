@@ -51,7 +51,7 @@ Para ejecutar el proyecto, sigue estos pasos:
 2. **Navega al directorio del proyecto**:
 
     ```bash
-    cd gestion-productos
+    cd app-productos
     ```
 
 3. **Compila el código** (si es necesario):
