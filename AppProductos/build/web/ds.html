@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style2.css"/>
+    </head>
+    <body>
+        <form action="ServletModificar" method = "post">
+            <h1>MODIFICAR PRODUCTO</h1>
+            <div class = "containerFormuario">
+                <label for = "seccion">Seccion</label>
+                <input type="text" name="seccion">
+            </div>
+            <div class = "containerFormuario">
+                <label for = "nombreArticulo">Nombre articulo</label>
+                <input type="text" name="nombreArticulo">
+            </div>
+            <div class = "containerFormuario">
+                <label for = "precio">Nombre articulo</label>
+                <input type="number" name="precio">
+            </div>
+            <div class = "containerFormuario">
+                <label for = "fecha">Nombre articulo</label>
+                <input type="date" name="fecha">
+            </div>
+            <div class = "containerFormuario">
+                <label for = "importado">Nombre articulo</label>
+                <input type="radio" name="importado" value = "verdadero">Si
+                <input type="radio" name="importado" value = "falso">No
+            </div>
+            <div class = "containerFormuario">
+                <label for = "paisDeOrigen">Nombre articulo</label>
+                <input type="text" name="paisDeOrigen" value = "verdadero">
+            </div>
+            <div class = "containerFormuario">
+                <input type="submit" value = "Modificar">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css"/>
+    </head>
+    <body>
+         <h1>LOGIN con POST</h1>
+       <form action="ServletUsuarios" method="post">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td class = "etiqueta">Uusario</td>
+                        <td class = "dato"><input type = "text" name = "usuario"></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class = "etiqueta">Contraseña:</td>
+                        <td class = "dato"><input type = "text" name = "contraseña"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align = "center">
+                            <input type = "submit" name = "button" value = "Enviar_post">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

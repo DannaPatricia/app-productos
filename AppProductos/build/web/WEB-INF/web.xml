@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>ServletUsuarios</servlet-name>
+        <servlet-class>paquete.ServletUsuarios</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletProductos</servlet-name>
+        <servlet-class>paquete.ServletProductos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletModificar</servlet-name>
+        <servlet-class>paquete.ServletModificar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletUsuarios</servlet-name>
+        <url-pattern>/ServletUsuarios</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletProductos</servlet-name>
+        <url-pattern>/ServletProductos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletModificar</servlet-name>
+        <url-pattern>/ServletModificar</url-pattern>
+    </servlet-mapping>
+</web-app>

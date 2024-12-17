@@ -1,0 +1,111 @@
+/* General Body Styling */
+body {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #f9f8fb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: #5e3c99;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-spacing: 0;
+    border: none;
+}
+
+td {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.etiqueta {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+/* Input and Select Styling */
+.dato input, .dato select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.dato input[type="text"], .dato input[type="password"], .dato select {
+    margin: 0;
+}
+
+.dato input:focus, .dato select:focus {
+    border-color: #8a2be2;
+    outline: none;
+}
+
+/* Radio Button Styling */
+.dato input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: #8a2be2;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #6d1fbf;
+    transform: scale(1.05);
+}
+
+/* Centering the Submit Button */
+td[colspan="2"] {
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    td {
+        display: block;
+        text-align: left;
+    }
+    .etiqueta {
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+    .dato input, .dato select {
+        width: 100%;
+    }
+}
