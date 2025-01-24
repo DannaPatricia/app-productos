@@ -83,6 +83,10 @@ Si tienes sugerencias o mejoras, ¡siéntete libre de abrir un **issue** o envia
 
 ---
 
+¡Gracias por tu interés en este proyecto! 🚀
+
+---
+
 ## Licencia
 
 Este proyecto está bajo la **Licencia MIT**. Puedes ver el texto completo de la licencia a continuación:
@@ -99,6 +103,4 @@ El aviso de copyright y este aviso de permiso deberán incluirse en todas las co
 
 EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITÁNDOSE A LAS GARANTÍAS DE COMERCIABILIDAD, APTITUD PARA UN FIN PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES POR CUALQUIER RECLAMO, DAÑO O CUALQUIER OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O DE CUALQUIER OTRA FORMA, QUE SURJA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO O CUALQUIER OTRO TIPO DE ACCIONES EN EL SOFTWARE.
 
----
 
-¡Gracias por tu interés en este proyecto! 🚀
